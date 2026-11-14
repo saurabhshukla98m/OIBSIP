@@ -66,8 +66,7 @@ Advanced analytical projects involving predictive modelling, classification, and
 
 **Saurabh Shukla**
 
-- LinkedIn: Add your LinkedIn profile here.
-- GitHub: Add your GitHub profile here.
+- LinkedIn: saurabh-shukla-57276040b
 
 ---
 
