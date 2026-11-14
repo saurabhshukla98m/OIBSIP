@@ -6,8 +6,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboards-F2C811?logo=powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-Visualization-E97627?logo=tableau&logoColor=white)
@@ -16,17 +16,32 @@
 
 ---
 
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [About Me](#-about-me)
+- [Tech Stack](#️-tech-stack)
+- [Internship Projects](#-internship-projects)
+- [Machine Learning Highlights](#-machine-learning-highlights)
+- [Project Workflow](#-project-workflow)
+- [Repository Structure](#-repository-structure)
+- [How to Run](#️-how-to-run)
+- [Key Learnings](#-key-learnings)
+- [Connect With Me](#-connect-with-me)
+
+---
+
 ## 📌 Overview
 
-This repository is a portfolio of the projects I completed during my **Data Analytics Internship at Oasis Infobyte**. It covers the complete analytics workflow: data cleaning, exploratory data analysis (EDA), visualization, and building machine learning models for prediction and classification.
+This repository is a portfolio of the projects I completed during my **Data Analytics Internship at Oasis Infobyte**. It covers the complete analytics lifecycle: data cleaning, exploratory data analysis (EDA), visualization, and building machine learning models for prediction and classification.
 
-Each project is kept in its own folder with the notebook, dataset reference, and key findings.
+Each project lives in its own folder with the Jupyter notebook, dataset reference, and key findings, so every analysis can be reviewed and reproduced independently.
 
 ---
 
 ## 👨‍💻 About Me
 
-Hi, I'm **Saurabh Shukla**, an aspiring Data Analyst who enjoys turning raw data into clear, actionable insights. I am continuously improving my skills through hands-on projects built on real-world datasets.
+Hi, I'm **Saurabh Shukla**, an aspiring Data Analyst who enjoys turning raw data into clear, actionable insights. I keep improving my skills through hands-on projects built on real-world datasets.
 
 ---
 
@@ -51,11 +66,11 @@ Hi, I'm **Saurabh Shukla**, an aspiring Data Analyst who enjoys turning raw data
 
 ### 📊 Level 1 – Data Exploration & Cleaning
 
-Foundational projects focused on data exploration, cleaning, and pattern discovery.
+Foundational projects focused on exploring data, cleaning it, and discovering patterns.
 
 | # | Project | Focus |
 |---|---|---|
-| 1 | **Retail Sales EDA** | Exploratory analysis of retail sales data, trends, and insights |
+| 1 | **Retail Sales EDA** | Exploratory analysis of retail sales data to uncover trends and insights |
 | 2 | **Customer Segmentation** | Grouping customers based on their behaviour |
 | 3 | **Titanic Data Cleaning** | Handling missing values, outliers, and inconsistencies |
 | 4 | **Sentiment Analysis** | Analysing text data to identify sentiment |
@@ -70,16 +85,21 @@ Advanced projects involving machine learning, prediction, and classification.
 | 2 | **Wine Quality Prediction** | Random Forest, SGD Classifier, Support Vector Classifier (SVC) |
 | 3 | **Credit Card Fraud Detection** | Classification-based fraud identification |
 | 4 | **Google Play Store Analysis** | EDA and app-market insights |
-| 5 | **Autocomplete & Autocorrect Data Analytics** | Text data analysis |
 
 ---
 
 ## 🤖 Machine Learning Highlights
 
-- **Regression:** Built a house price prediction model using Linear Regression and improved it with **Ridge and Lasso** regularization to reduce overfitting.
-- **Classification:** Compared **Random Forest, SGD Classifier, and SVC** to predict wine quality, evaluated with accuracy and classification metrics.
-- **Preprocessing:** Applied encoding, scaling, and train-test splitting to prepare data for modelling.
-- **Evaluation:** Compared models using standard metrics to pick the best performer for each problem.
+| Problem | Approach | Evaluation |
+|---|---|---|
+| **House Price Prediction** *(Regression)* | Linear Regression, improved with **Ridge** and **Lasso** regularization to reduce overfitting | R², MSE / RMSE |
+| **Wine Quality Prediction** *(Classification)* | Compared **Random Forest, SGD Classifier, and SVC** | Accuracy, Confusion Matrix, Classification Report |
+
+**Common practices across projects:**
+
+- Data preprocessing with encoding, feature scaling, and train-test splitting
+- Side-by-side model comparison using standard metrics to select the best performer
+- Clear visualizations to support every conclusion
 
 ---
 
@@ -97,18 +117,17 @@ Data Collection → Data Cleaning → EDA & Visualization → Feature Engineerin
 ```text
 Oasis-Infobyte-Projects/
 │
-├── Level-1/
-│   ├── Task-1-Retail-Sales-EDA/
-│   ├── Task-2-Customer-Segmentation/
-│   ├── Task-3-Titanic-Data-Cleaning/
-│   └── Task-4-Sentiment-Analysis/
+├── Data Analytics - Level 1/
+│   ├── Task 1 - Retail Sales EDA/
+│   ├── Task 2 - Customer Segmentation/
+│   ├── Task 3 - Titanic Data Cleaning/
+│   └── Task 4 - Sentiment Analysis/
 │
-├── Level-2/
-│   ├── Task-1-House-Price-Prediction/
-│   ├── Task-2-Wine-Quality-Prediction/
-│   ├── Task-3-Credit-Card-Fraud-Detection/
-│   ├── Task-4-Google-Play-Store-Analysis/
-│   └── Task-5-Autocomplete-Autocorrect-Analytics/
+├── Data Analytics - Level 2/
+│   ├── Task 1 - House Price Prediction/
+│   ├── Task 2 - Wine Quality Prediction/
+│   ├── Task 3 - Credit Card Fraud Detection/
+│   └── Task 4 - Google Play Store Analysis/
 │
 └── README.md
 ```
@@ -133,13 +152,13 @@ jupyter notebook
 
 ---
 
-## 🎯 Internship Goals
+## 🎓 Key Learnings
 
-- Strengthen practical data analytics skills
-- Work with real-world datasets
-- Perform thorough Exploratory Data Analysis (EDA)
-- Build meaningful visualizations and predictive models
-- Develop analytical thinking and problem-solving abilities
+- Cleaning and preparing real-world, messy datasets for analysis
+- Performing structured EDA and communicating findings through visuals
+- Building, tuning, and comparing regression and classification models
+- Choosing the right evaluation metric for each type of problem
+- Organizing projects and documenting work professionally on GitHub
 
 ---
 
